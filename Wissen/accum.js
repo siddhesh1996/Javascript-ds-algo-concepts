@@ -1,7 +1,5 @@
 function accum(s) {
-    return sArray = s.split('').map((letter, index) => {
-        return letter.toUpperCase() + letter.repeat(index).toLowerCase()
-    }).join('-');
+    return s.split('').map((l, i) => l.toUpperCase() + l.repeat(i).toLowerCase()).join('-');
 }
 
 console.log(accum('abcd'));
