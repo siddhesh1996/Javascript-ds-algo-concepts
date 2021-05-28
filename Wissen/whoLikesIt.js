@@ -16,7 +16,7 @@ function likes(names) {
             break;
         default:
             let othersCount = names.length - 2;
-            result = `${names[0]}, ${names[1]} and ${othersCount} others like this`;
+            result = `${names[0]}, ${names[1]} and ${othersCount} others ${result}`;
             break;
     }
 
